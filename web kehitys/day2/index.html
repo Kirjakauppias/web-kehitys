@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+         /* CSS-kommentin syntaksi. */
+
+        img
+        { /* Määrittää tyylit kaikille img-elementeille. */
+            display: block;
+            margin: 0 auto;
+            width: 1000px;
+            height: 750px;
+        }
+        
+        ul
+        {
+            
+        } /* ul päättyy */
+        
+        a
+        {
+            display: block;
+            margin: 0 auto;
+            color: rgb(68, 0, 255);
+        } /* a päättyy */
+        
+        .small-images
+        {            
+            width: 100px;
+            height: 75px;
+        }
+        
+    </style>
+</head>
+<!-- 3 tapaa tehdä kuvista samankokoisia. -->
+<!-- 1. Määritellään kuvan koko img-elementin attribuuttina. -->
+<!-- 2. Määritellään tyyleissä kaikkien img-elementtien koot.-->
+<!-- 3. Määrittää elementille luokka tai id, ja antaa tyylit luokka tai id kohtaisesti. -->
+<body>
+    <h1>Erilaisia autoja!</h1>
+    <ul> <!-- Lista-elementti -->
+        <li> <img class="small-images" src="images/auto1.jpg"  alt="Keltainen auto."> <a href="https://www.topgear.com/car-news/supercars/here-are-load-cars-look-great-yellow">Nämä auto näyttävät hyvältä keltaisena.</a> </li>
+        <li> <img class="small-images" src="images/auto2.png"  alt="Punainen auto."> <a id="black-link" href="https://en.wikipedia.org/wiki/Red_Cars">Punaiset autot, Wikipedia.</a> </li>
+        <li> <img class="small-images" src="images/auto3.png"  alt="Sininen auto."> <a href="https://autoseeks.com/top-5-blue-color-cars-best-blue-interior-cars-in-2022/">Hienoja sinisiä autoja.</a> </li>
+        <li> <img class="small-images" src="images/auto4.png"  alt="Oranssi auto."> <a href="https://www.autoguide.com/auto-news/2021/12/orange-cars-you-didn-t-know-came-orange.html">Nämäkin autot ovat oranssina.</a> </li>
+    </ul>
+    
+    
+</body>
+</html>
