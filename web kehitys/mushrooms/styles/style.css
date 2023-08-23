@@ -1,9 +1,25 @@
+body {
+    background-image: url('images/mushroombg.jpg');
+  }
+
 img {
     height: 400px;
     width: 300px;
 }
 
 h1 {
-    color: aliceblue;
+    color: blue;
     font-size: 75px;
+}
+
+h2{
+
+}
+
+p {
+    
+}
+
+ul{
+
 }
