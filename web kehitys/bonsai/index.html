@@ -1,0 +1,165 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header> <!-- Container -->
+        <div class="header-center"> <!-- Varsinainen otsikko -laatikko -->
+            <a href=""> <!-- Pitäisikö tämä linkki laittaa oman boxin sisälle? -->
+                <img class="logo" src="images/bonsai-logo.svg" alt="Firman logo"> <!-- Firman logo ja nimi samassa kuvassa. -->
+            </a>
+            <nav role="navigation" class="main-navigation-menu w-nav-menu"> <!-- Navigointi-boxi -->
+                <div class="main-nav-left">
+                    <ul>
+                        <li><a href="">Product</a></li>
+                        <li><a href=""><img src="images/bxs-chevron-down.svg" alt=""></a></li> <!-- Puuttuu sub-menu -->
+                        <li><a href="">Templates</a></li>
+                        <li><a href=""><img src="images/bxs-chevron-down.svg" alt=""></a></li> <!-- Puuttuu sub-menu -->
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="main-nav-right">
+                    <a href="" class="nav-button inverted w-button">Log In</a>
+                    <a href="" class="nav-button w-button">Start free</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="page-wrap"> <!-- Container -->
+        <div class="section-main spacing-110-0-40-0 wf-section"> <!-- Laitetaan navin ja mainin välille tilaa -->
+            <div class="blue-shape _12"></div> <!-- Tehdään sininen läpinäkynä tausta-alue HOX! Vaatii fiksausta! -->
+        </div>
+        <div class="container-large"> <!-- "Main" -laatikko -->
+            <div class="higher-content pricing-plans"> <!--Main -laatikon otsikkolaatikko TO DO! P&P ja togglen välille enemmän tilaa -->
+                <!-- TO DO! Tarkista, täytyykö toggle- holderin olla eri tasolla. -->
+                <div class="margin-bottom margin-medium"> 
+                    <h1 class="heading-large-40 amerigo">
+                        Plans &amp; Pricing
+                    </h1>
+                </div>
+                <div class="toggle-holder">
+                    <div class="monthly-text">
+                        Monthly
+                    </div>
+                    <div class="toggle"> <!-- Tutki tätä tarkemmin -->
+                        <div class="toggle-ball"></div>
+                    </div>
+                    <div class="yearly-text z-index">
+                        Yearly
+                   </div>
+                   <img src="images/2-month.svg" alt="" class="offer-img">
+                </div>
+            </div>
+            <div class="pricing-monthly"> <!-- Tästä alkaa main-osion laatikot eli container -->
+                <div class="plan-div">
+                    <div class="heading-medium-26 text-weight-semibold">Workflow</div>
+                    <div class="price-box">
+                        <div class="price">
+                            <span class="currency-symbol">$</span>
+                            24
+                            <span class="heading-medium-26 text-weight-normal text-capitalize margin-left margin-medium">/month</span>
+                        </div>
+                    </div>
+                    <div class="plan-features-div">
+                        <div class="tick-div">
+                            <img src="images/green-tick.svg" alt="" class="margin-right margin-small">
+                            <div>Unlimited Clients & Projects</div>
+                        </div>
+                        <div class="tick-div">
+                            <img src="images/green-tick.svg" alt="" class="margin-right margin-small">
+                            <div>Proposals</div>
+                        </div>
+                        <div class="tick-div">
+                            <img src="images/green-tick.svg" alt="" class="margin-right margin-small">
+                            <div>Cotracts</div>
+                        </div>
+                        <div class="tick-div">
+                            <img src="images/green-tick.svg" alt="" class="margin-right margin-small">
+                            <div>Invoicing & Payments</div>
+                        </div>
+                        <div class="tick-div">
+                            <img src="images/green-tick.svg" alt="" class="margin-right margin-small">
+                            <div>Project Management</div>
+                        </div>
+                        <div class="tick-div">
+                            <img src="images/green-tick.svg" alt="" class="margin-right margin-small">
+                            <div>Task & Time Tracking</div>
+                        </div>
+                        <div class="tick-div">
+                            <img src="images/green-tick.svg" alt="" class="margin-right margin-small">
+                            <div>iOS, Android, Chrome, & Mac Apps</div>
+                        </div>  
+                    </div>
+                    <div class="margin-top auto">
+                        <a href="" class="wide-cta w-button">Start Free</a>
+                    </div>                      
+                </div>
+                <div class="plan-div">
+                    <div class="heading-medium-26 text-weight-semibold">Workflow Plus</div>
+                    <div class="price-box">  <!--Container jossa on hinta-divit-->
+                        <div class="price">
+                            <span class="currency-symbol">$</span>
+                            29
+                            <span class="heading-medium-26 text-weight-normal text-capitalize margin-left margin-medium">/month</span>
+                        </div>
+                    </div>
+                    <div class="plan-features-div">
+                        <div class="tick-div">
+                            <img src="images/green-tick.svg" alt="" class="margin-right margin-small">
+                            <div>Everything in Workflow, plus...</div>
+                        </div>
+                        <div class="tick-div">
+                            <img src="images/green-tick.svg" alt="" class="margin-right margin-small">
+                            <div>White-labelled client experience</div>
+                        </div>
+                        <div class="tick-div">
+                            <img src="images/green-tick.svg" alt="" class="margin-right margin-small">
+                            <div>Client forms and questionnaires</div>
+                        </div>
+                        <div class="tick-div">
+                            <img src="images/green-tick.svg" alt="" class="margin-right margin-small">
+                            <div>Workflow automations</div>
+                        </div>
+                        <div class="tick-div">
+                            <img src="images/green-tick.svg" alt="" class="margin-right margin-small">
+                            <div>Subcontracting (client-mode)</div>
+                        </div>
+                        <div class="tick-div">
+                            <img src="images/green-tick.svg" alt="" class="margin-right margin-small">
+                            <div>Calendly integration</div>
+                        </div>
+                        <div class="tick-div">
+                            <img src="images/green-tick.svg" alt="" class="margin-right margin-small">
+                            <div>Client portal</div>
+                        </div>
+                        <div class="tick-div">
+                            <img src="images/green-tick.svg" alt="" class="margin-right margin-small">
+                            <div>Priority support</div>
+                        </div>
+                    </div>
+                    <div class="margin-top auto">
+                        <a href="" class="wide-cta w-button">Start Free</a>
+                    </div>                      
+                </div>
+            </div>
+        </div> 
+    </div>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Support</a></li>
+                <li><a href="">LinkedIn</a></li>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Privacy policy</a></li>
+                <li><a href="">Legal</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Media/embedding: Task 3</title>
+    <style>
+      body {
+        background-color: #fff;
+        color: #333;
+        font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Embedding</h1>
+
+    <!-- PDF embed here  -->
+
+    <object data="../multimedia_embedding/media/mypdf.pdf" type="application/pdf" width="800" height="1200">
+        <p>
+          You don't have a PDF plugin, but you can
+          <a href="mypdf.pdf">download the PDF file. </a>
+        </p>
+    </object>
+
+    <hr>
+
+    <!-- 3rd party embed here  -->
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/AFA-rOls8YA?si=ys4fswJ5ge87vqoe" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen
+        sandbox>
+
+    </iframe>
+  </body>
+
+</html>

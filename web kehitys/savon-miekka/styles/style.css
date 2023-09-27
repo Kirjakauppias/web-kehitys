@@ -1,0 +1,16 @@
+body {
+    color: #b29d85;
+    line-height: 1.615;
+}
+
+/* Yläpalkin auringonlasku -väri */
+.sunstrip {
+    height: 20px;
+}
+
+.sunstrip {
+    background: -webkit-linear-gradient(left, #b94f25 1%, #ffa800 21%, #ffa800 31%, #b94f25 41%);
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}

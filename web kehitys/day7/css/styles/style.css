@@ -1,0 +1,56 @@
+h1 {
+    color: red;
+    transform: rotate(0.75turn);
+}
+
+p, li {
+    color: green;
+}
+
+p {
+    display: inline;    /*Toinen p -elementti jatkuu heti toisen perässä */
+}
+
+li {
+    list-style: none;   /* Listasta pallukka pois */
+}
+
+/* Pisteellä valitaan luokka */
+/* Tässä määritellään pelkkä listan -special luokka */
+li.special {
+    color: orange;
+    font-weight: bold;
+}
+
+/* Tässä ei ole pilkkua, välilyönti = listan em -elementti */
+li em { 
+    color: purple;
+}
+
+/* Muokkaa heti sitä elementtiä, joka tulee plussan jälkeen
+    Siksi toinen p -elementti ei ole yhtä iso fontti */
+h1 + p {
+    font-size: 200%;
+}
+
+/* Linkin väri on pinkki ennen klikkausta*/
+a:link {
+    color: pink;
+}
+
+/* Linkin väri klikkauksen jälkeen */
+a:visited {
+    color: green;
+}
+
+/* Linkin viiva katoaa kun hiiri on linkin päällä */
+a:hover{
+    text-decoration: none;
+}
+
+/* Valitsee kaikki elementit mitä voi olla (univeraali selektori) 
+jos kahdella asialla on 2 eri tyyliä, CSS valitsee sen elementin joka on tarkemmin määritelty p vs. * 
+*/
+* {
+    color: yellow;
+}
